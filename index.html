@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel=" stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <script src = "https://kit.fontawesome.com/c425e24a8.js" crossorigin="anonymous"></script>
+
+<body>
+    <div id="header">
+        <div class="container">            
+            <nav>
+                <a href="#" class="logo">Portfolio</a>
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!-- <li><a href="#services">Services</a></li> -->
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Hey, my name is <span><br>K P Pranay</span></h1>
+            </div>
+        </div>
+    </div>
+
+<!-- ----------------ABOUT---------------- -->
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="iMages/thumb-1920-545909 (2).jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="abt">
+                        Currently pursuing a Bachelor of Technology in Computer Science Engineering, specializing in Artificial Intelligence and
+                        Machine Learning at CMR Engineering College. Passionate about UI/UX, Web development, Software development, Data
+                        Science, and Data analytics. Deeply committed to mastering emerging technology trends and contribute innovative
+                        solutions.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick=" opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('achievements')">Achievements</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>C++ | C | Python | Java | R</li>
+                            <li><span>Design and Development</span><br>Figma | HTML | CSS | JavaScript | Bootstrap | Flutter | Dart</li>
+                            <li><span>Databases and Other Tools</span><br>MySQL | MongoDB | Git | VScode</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="achievements">
+                        <ul>
+                            <li><span><br>Solved 300+ problems on LeetCode and CodeChef</span></li>
+                            <li><span><br>Assisted 150 students in their weekly DSA Training as a SmartInterviews Mentor</span></li>
+                            <li><span><br>SmartInterviews - Smart Coder Certificate</span></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br>CMR ENGINEERING COLLEGE</li>
+                            <li><span>2021</span><br>FIITJEE JUNIOR COLLEGE SAIFABAD</li>
+                            <li><span>2019</span><br>ARMY PUBLIC SCHOOL R K PURAM</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- -----------------SERVICES----------------- -->
+    
+    <!-- <div id="services">
+        <div class="container">
+            <h1 class="sub-title" style="color: rgb(94, 29, 134);">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid provident, harum, et fuga cum adipisci doloribus maiores iure laboriosam, laudantium est. Odit rem aliquid aut ut nesciunt commodi pariatur earum!</p>
+                    <a href="#">Learn more</a>
+                </div>                
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid provident, harum, et fuga cum adipisci doloribus maiores iure laboriosam, laudantium est. Odit rem aliquid aut ut nesciunt commodi pariatur earum!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid provident, harum, et fuga cum adipisci doloribus maiores iure laboriosam, laudantium est. Odit rem aliquid aut ut nesciunt commodi pariatur earum!</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+<!-- ------------------PROJECTS------------------ -->
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="iMages/images.jpg">
+                    <div class="layer">
+                        <h3>Stock Price Predictor</h3>
+                        <p>Streamlit based web application that provides users with tools to analyze historical stock price data, visualize
+                            technical indicators and can make short-term price predictions using different machine learning models</p>
+                        <a href="https://github.com/pranay1306/Stock-Price-Predictor"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="iMages/images.jpg">
+                    <div class="layer">
+                        <h3>CV Builder</h3>
+                        <p>GUI based application using Tkinter module</p>
+                        <a href="https://github.com/pranay1306/CV-Builder"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="iMages/images.jpg">
+                    <div class="layer">
+                        <h3>To-Do App</h3>
+                        <p>Developed a dynamic To-Do List application using HTML, CSS, and JavaScript featuring task addition, completion tracking, and deletion functionalities</p>
+                        <a href="https://github.com/pranay1306/To-do-App"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="https://github.com/pranay1306" class="btn"><b>See More</b></a>
+        </div>
+    </div>
+
+<!-- ------------------CONTACT------------------ -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title" style="color: rgb(255, 0, 195);">Contact Me</h1>
+                    <p><i class="fa brands fa-envelope"></i> pranaykannan1306@gmail.com</p>
+                    <p><i class="fa brands fa-phone-square-alt"></i> +91 9618<b>-</b>939<b>-</b>484</p>
+                    <div class="social-icons">
+                        <div class="link">
+                            <a href="https://www.linkedin.com/in/pranay-kannan-59262526a/"><i
+                                    class="fab fa-linkedin"></i></a>
+                        </div>
+                        <div class="git">
+                            <a href="https://github.com/pranay1306"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="x-twit">
+                            <a href="https://www.twitter.com"><i class="fab fa-twitter-square"></i></a>
+                        </div>
+                        <div class="insta">
+                            <a href="https://www.instagram.com/_pranay._.kannan_/"><i
+                                    class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="yt">
+                            <a href="https://www.youtube.com/channel/UCQxjKfJ5_utx07IriT1I5ew"><i
+                                    class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <a href="Pranay's Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script> 
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+    
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxe8s-xH-qvt4QVUKnBxrDibnPaTQNLdmGxX3ZNscm2HHcIniumWLooTC0EtJDbpepk/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+ </body>
+
+</html>
