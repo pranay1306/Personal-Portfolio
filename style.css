@@ -26,7 +26,7 @@ body{
 }
 .logo{
   font-family: 'Audiowide', cursive;
-  font-size: 45px; 
+  font-size: 50px; 
   text-decoration: none; 
   color: #EDF4F2;
 }
@@ -44,13 +44,13 @@ nav ul li{
 nav ul li a{
   color: #EDF4F2;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 25px;
   position: relative;
 }
 nav ul li a::after{
   content: '';
   width: 0;
-  height: 3px;
+  height: 5px;
   background: #31473A;
   position: absolute;
   left: 0;
@@ -107,17 +107,18 @@ nav ul li a:hover::after{
 }
 .about-col-1 img{
   width: 100%;
-  height: 90%;
+  /* height: 90%; */
   border-radius: 45px;
 }
 .about-col-2{
   flex-basis: 60%;
 }
 .abt{
+  margin-top: 20px;
   font-size: 25px;
 }
 .sub-title{
-  font-size: 60px;
+  font-size: 70px;
   font-weight: 600;
   color: rgb(26, 207, 147);
 }
@@ -126,8 +127,9 @@ nav ul li a:hover::after{
   margin: 20px 0 40px;
 }
 .tab-links{
-  margin-right: 50px;
-  font-size: 18px;
+  margin-top: 20px;
+  margin-right: 80px;
+  font-size: 30px;
   font-weight: 500;
   cursor: pointer;
   position: relative;
@@ -135,7 +137,7 @@ nav ul li a:hover::after{
 .tab-links::after{
   content: '';
   width: 0;
-  height: 3px;
+  height: 5px;
   background: rgb(26, 207, 147);
   position: absolute;
   left: 0;
@@ -148,10 +150,11 @@ nav ul li a:hover::after{
 .tab-contents ul li{
   list-style: none;
   margin: 10px 0;
+  font-size: 25px;
 }
 .tab-contents ul li span{
   color: rgb(26, 207, 147);
-  font-size: 14px;
+  font-size: 20px;
 }
 .tab-contents{
   display: none;
@@ -219,7 +222,7 @@ nav ul li a:hover::after{
 }
 .sub-titleP{
   color: #EDF4F2;
-  font-size: 60px;
+  font-size: 70px;
   font-weight: 600;
 }
 .work-list{
@@ -235,7 +238,7 @@ nav ul li a:hover::after{
 }
 .work img{
   width: 100%;
-  height: 430px;
+  height: 540px;
   border-radius: 10px;
   display: block;
   transition: transform 0.5s;
@@ -262,13 +265,17 @@ nav ul li a:hover::after{
 }
 .layer h3{
   font-weight: 500;
+  font-size: 40px;
   margin-bottom: 20px;
+}
+.layer p{
+  font-size: 20px;
 }
 .layer a{
   margin-top: 20px;
-  color: #0A66C2;
+  color: #31473A;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 25px;
   line-height: 60px;
   background: white;
   width: 60px;
