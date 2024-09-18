@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-## Table of Contents
+## 📚 Table of Contents
 - [About the Project](#about-the-project)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
@@ -11,7 +11,7 @@
 
 ---
 
-## About the Project
+## 🛠️ About the Project
 
 This is my **Personal Portfolio Website**, built using **HTML**, **CSS**, and **JavaScript**. It showcases my skills, projects, and contact information. The site features a modern design with a responsive layout, easy navigation, and smooth scrolling between sections.
 
@@ -23,7 +23,7 @@ This is my **Personal Portfolio Website**, built using **HTML**, **CSS**, and **
 - **Contact Form**: A functional contact form connected to Google Sheets using Google Apps Script for form submissions.
 - **Downloadable Resume**: CV download link.
 
-## 🛠️ Technologies Used
+## 💻 Technologies Used
 
 - **HTML5**
 - **CSS3**
@@ -51,7 +51,7 @@ This is my **Personal Portfolio Website**, built using **HTML**, **CSS**, and **
 └── README.md              # Project README
 ```
 
-## 🎨 Screenshot
+## 📸 Screenshot
 
 ![Portfolio Website Screenshot](iMages/PF_Screenshot.png)
  
