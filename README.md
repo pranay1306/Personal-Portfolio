@@ -1,9 +1,19 @@
 # Personal Portfolio Website
 
-![Portfolio Website Screenshot](iMages/PF_Screenshot.png)
+## Table of Contents
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Project Structure](#project-structure)
+- [Screenshots](#screenshots)
+- [License](#license)
+- [Contact](#contact)
 
+---
 
-This is my **Personal Portfolio Website**, built using **HTML**, **CSS**, and **JavaScript**. It showcases my skills, projects, and contact information in a modern, responsive design.
+## About the Project
+
+This is my **Personal Portfolio Website**, built using **HTML**, **CSS**, and **JavaScript**. It showcases my skills, projects, and contact information. The site features a modern design with a responsive layout, easy navigation, and smooth scrolling between sections.
 
 ## 🚀 Features
 
@@ -39,3 +49,13 @@ This is my **Personal Portfolio Website**, built using **HTML**, **CSS**, and **
 ├── script.js              # Main JavaScript file for interactivity
 ├── Resume.pdf             # Resume for download
 └── README.md              # Project README
+
+## 🎨 Screenshot
+
+![Portfolio Website Screenshot](iMages/PF_Screenshot.png)
+
+## 📫 Contact
+
+Pranay Kannan - LinkedIn - pranaykannan1306@gmail.com
+
+Project Link: https://pranay1306.github.io/Personal-Portfolio/
