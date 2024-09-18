@@ -1,12 +1,7 @@
 # Personal Portfolio Website
 
-![Home Page Screenshot](iMages/Home.png)
+![Portfolio Website Screenshot](iMages/PF_Screenshot.png)
 
-![About Page Screenshot](iMages/About.png)
-
-![Project Page Screenshot](iMages/Project.png)
-
-![Contact Page Screenshot](iMages/Contact.png)
 
 This is my **Personal Portfolio Website**, built using **HTML**, **CSS**, and **JavaScript**. It showcases my skills, projects, and contact information in a modern, responsive design.
 
