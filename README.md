@@ -33,7 +33,7 @@ This is my **Personal Portfolio Website**, built using **HTML**, **CSS**, and **
 ## 📂 Project Structure
 
 ```bash
-├── images/                # Images used in the website
+├── iMages/                # Images used in the website
 ├── index.html             # Main HTML file
 ├── style.css              # Main CSS file
 ├── script.js              # Main JavaScript file for interactivity
