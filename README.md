@@ -49,11 +49,12 @@ This is my **Personal Portfolio Website**, built using **HTML**, **CSS**, and **
 ├── script.js              # Main JavaScript file for interactivity
 ├── Resume.pdf             # Resume for download
 └── README.md              # Project README
+```
 
 ## 🎨 Screenshot
 
 ![Portfolio Website Screenshot](iMages/PF_Screenshot.png)
-
+ 
 ## 📫 Contact
 
 Pranay Kannan - LinkedIn - pranaykannan1306@gmail.com
